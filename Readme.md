@@ -147,9 +147,6 @@ _(Add screenshots of your project here – Homepage, Lesson View, Word Modal, Se
 * **Anzumul Jubayer**
    CSE Graduate | Web Development Enthusiast | Bangladesh
 
-```
-
----
 
 
-```
+
