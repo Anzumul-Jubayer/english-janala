@@ -68,8 +68,7 @@ const displayWord = (words) => {
             <img src="./assets/alert-error.png" alt="" class="mx-auto">
            <p class="text-xl font-semibold text-gray-400 ">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।!!</p>
             <h2 class="text-3xl font-semibold text-gray-400 mt-4">নেক্সট Lesson এ যান </h2>
-           
-        </div>
+    </div>
     `;
     manageSpinner(false)
     return;
@@ -116,3 +115,16 @@ const displayLesson = (lessons) => {
 };
 
 loadLesson();
+
+document.getElementById('btn-search').addEventListener('click',()=>{
+    removeActive()
+    const input=document.getElementById('input-search')
+    const inputValue=input.value.trim().toLowerCase()
+   fetch('https://openapi.programming-hero.com/api/words/all')
+      .then(response => response.json())
+      .then(json => {
+        const allWords=json.data
+        const filterWords=allWords.filter((word)=>word.word.toLowerCase().includes(inputValue))
+        displayWord(filterWords)
+      })
+})
