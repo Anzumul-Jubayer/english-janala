@@ -134,11 +134,9 @@ _(Add screenshots of your project here – Homepage, Lesson View, Word Modal, Se
 
 ### 🌐 Live Demo
 
-👉 \[Add your deployed project link here]
+👉 [English জানালা](https://anzumul-jubayer.github.io/english-janala/)
 
 ---
-
-
 
 ---
 
