@@ -138,12 +138,7 @@ _(Add screenshots of your project here – Homepage, Lesson View, Word Modal, Se
 
 ---
 
-## 📌 Future Improvements
 
-* Add **user authentication** (login/signup).
-* Allow users to **bookmark favorite words**.
-* Add **progress tracking** (completed lessons).
-* Implement **Bangla pronunciation** with multilingual TTS.
 
 ---
 
@@ -156,5 +151,5 @@ _(Add screenshots of your project here – Homepage, Lesson View, Word Modal, Se
 
 ---
 
-Do you also want me to **add example API responses (JSON samples)** for each endpoint in the README so developers know what kind of data they’ll get?
+
 ```
